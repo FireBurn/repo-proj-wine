@@ -247,7 +247,7 @@ wine_env_vcs_vars() {
 	fi
 }
 
-pkg_pretend() {
+src_pretend() {
 	wine_build_environment_check || die
 
 	# Verify OSS support
